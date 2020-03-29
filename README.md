@@ -4,7 +4,20 @@ Descarga git
 https://git-scm.com/
 
 Inicializa repositorio  
-git init 
+git init  
+
+Crea usuario
+General  
+git config --global user.name"nombreusuario"  
+git config --global user.email"tuemail@email.com"  
+
+Para un repo concreto  
+git config user.name"nombreusuario"  
+git config user.email"tuemail@email.com"  
+
+Elimina usuario  
+git config --global --unset-all user.name  
+git config --global --unset-all user.email  
 
 Añade archivos  
 git add miarchivo.txt  
@@ -21,19 +34,6 @@ git push -u origin master
 
 Muestra configuración general  
 git config --global --list  
-
-Crea usuario
-General  
-git config --global user.name"nombreusuario"  
-git config --global user.email"tuemail@email.com"  
-
-Para un repo concreto  
-git config user.name"nombreusuario"  
-git config user.email"tuemail@email.com"  
-
-Elimina usuario  
-git config --global --unset-all user.name  
-git config --global --unset-all user.email  
 
 Muestra el estado  
 git status  
