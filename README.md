@@ -1,4 +1,7 @@
-# comandos_git
+# comandos_git  
+
+Descarga git  
+https://git-scm.com/
 
 Inicializa repositorio  
 git init 
