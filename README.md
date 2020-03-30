@@ -31,7 +31,13 @@ Enlaza repositorio externo
 git remote add origin https://urldelrepositorio
 
 Sube al repositorio externo  
-git push -u origin master  
+git push -u origin master
+
+Descarga los archivos remotos
+git pull
+
+Descargar/Clonar repositorio  
+git clone urldelrepositorio  
 
 Muestra configuración general  
 git config --global --list  
