@@ -49,7 +49,7 @@ Muestra el registro de commits
 git log  
 git log --oneline --decorate
 
-Crea una nueva rama
+Crea una nueva rama  
 git checkout -b minuevarama (versión abreviada)  
 
 git branch minuevarama (crea la rama)  
@@ -65,10 +65,10 @@ git merge ramaafusionar
 Elimina rama  
 git branch -d ramaaeliminar  
 
-Crea tags
+Crea tags  
 git tag nombretag -m "comentario"  
 
-Sube tags
+Sube tags 
 git push tags  
 
 
