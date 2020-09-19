@@ -33,7 +33,7 @@ git remote add origin https://urldelrepositorio
 Sube al repositorio externo  
 git push -u origin master
 
-Descarga los archivos remotos
+Descarga los archivos remotos  
 git pull
 
 Descargar/Clonar repositorio  
@@ -63,7 +63,15 @@ git checkout ramadedestino
 git merge ramaafusionar  
 
 Elimina rama  
-git branch -d ramaaeliminar
+git branch -d ramaaeliminar  
+
+Crea tags
+git tag nombretag -m "comentario"  
+
+Sube tags
+git push tags  
+
+
 
 
 
