@@ -55,6 +55,12 @@ git checkout -b minuevarama (versión abreviada)
 git branch minuevarama (crea la rama)  
 git chekout minuevarama (se mueve a esa rama)  
 
+Visualiza las ramas  
+
+git branch  
+
+
+
 Cambia de rama  
 git chekout ramaalaquequieromoverme  
 
