@@ -75,7 +75,9 @@ Crea tags
 git tag nombretag -m "comentario"  
 
 Sube tags  
-git push tags  
+git push --tags  
+
+
 
 
 
