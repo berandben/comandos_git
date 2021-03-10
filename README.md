@@ -6,7 +6,13 @@ https://www.atlassian.com/es/git
 # comandos_git  
 
 Descarga git  
-https://git-scm.com/
+https://git-scm.com/  
+
+ssh-key  
+
+genera key ssh  
+
+
 
 Inicializa repositorio  
 git init  
