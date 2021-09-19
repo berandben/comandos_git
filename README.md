@@ -15,12 +15,19 @@ genera key ssh
 
 
 Inicializa repositorio  
-git init  
+git init   
+
+Ver configuración  
+
+git config --list  
+
 
 Crea usuario
 General  
 git config --global user.name"nombreusuario"  
 git config --global user.email"tuemail@email.com"  
+git config --global user.password "your password"  
+
 
 Para un repo concreto  
 git config user.name"nombreusuario"  
