@@ -95,6 +95,16 @@ git tag nombretag -m "comentario"
 Sube tags  
 git push --tags  
 
+gitignore  
+
+$ touch ./.gitignore
+$ git config core.excludesFile ./.gitignore  
+
+Eliminar archivo cacheado  
+
+$ git rm --cached archivocacheado
+
+
 
 
 
